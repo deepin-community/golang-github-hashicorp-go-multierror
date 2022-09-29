@@ -1,0 +1,5 @@
+---
+Bug-Database: https://github.com/hashicorp/go-multierror/issues
+Bug-Submit: https://github.com/hashicorp/go-multierror/issues/new
+Repository: https://github.com/hashicorp/go-multierror.git
+Repository-Browse: https://github.com/hashicorp/go-multierror

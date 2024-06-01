@@ -1,3 +1,22 @@
+golang-github-hashicorp-go-multierror (1.1.1-2) unstable; urgency=medium
+
+  [ Tianon Gravi ]
+  * Team upload.
+  * Remove self from Uploaders
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints. + golang-github-hashicorp-go-multierror-dev: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 26 Nov 2022 11:54:18 +0000
+
+golang-github-hashicorp-go-multierror (1.1.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 1.1.1.
+  * Update Standards-Version to 4.6.0.1 (no changes)
+
+ -- Nobuhiro Iwamatsu <iwamatsu@debian.org>  Fri, 04 Feb 2022 00:42:14 +0900
+
 golang-github-hashicorp-go-multierror (1.1.0-1) unstable; urgency=medium
 
   * Team upload.

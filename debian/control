@@ -1,16 +1,15 @@
 Source: golang-github-hashicorp-go-multierror
 Maintainer: Debian Go Packaging Team <team+pkg-go@tracker.debian.org>
-Uploaders: Tianon Gravi <tianon@debian.org>,
-           Tim Potter <tpot@hpe.com>,
-	   Anthony Fok <foka@debian.org>
+Uploaders: Tim Potter <tpot@hpe.com>,
+           Anthony Fok <foka@debian.org>
 Section: golang
 Testsuite: autopkgtest-pkg-go
 Priority: optional
 Build-Depends: debhelper-compat (= 13),
                dh-golang,
-               golang-github-hashicorp-errwrap-dev (>= 1.0.0~),
+               golang-github-hashicorp-errwrap-dev,
                golang-any
-Standards-Version: 4.5.1
+Standards-Version: 4.6.0.1
 Vcs-Browser: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-go-multierror
 Vcs-Git: https://salsa.debian.org/go-team/packages/golang-github-hashicorp-go-multierror.git
 Homepage: https://github.com/hashicorp/go-multierror
@@ -19,9 +18,10 @@ XS-Go-Import-Path: github.com/hashicorp/go-multierror
 
 Package: golang-github-hashicorp-go-multierror-dev
 Architecture: all
-Depends: golang-github-hashicorp-errwrap-dev (>= 1.0.0~),
+Depends: golang-github-hashicorp-errwrap-dev,
          ${misc:Depends},
          ${shlibs:Depends}
+Multi-Arch: foreign
 Description: Go package for representing a list of errors as a single error
  go-multierror is a package for Go that provides a mechanism for representing a
  list of error values as a single error.
